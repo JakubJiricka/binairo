@@ -1,0 +1,265 @@
+.tile.tile-1 .inner {
+  background-color: #1F3C88 !important;
+  color:#1F3C88 !important;
+}
+
+.tile.tile-2 .inner {
+  background-color: #F7B633 !important;
+  color:#F7B633 !important;
+}
+
+.about .tile.tile-1 .inner {
+  background-color: #F7B633 !important;
+}
+
+#menugrid {
+  .odd {
+    .tile.tile-1 .inner {
+      background-color: #F7B633 !important;
+      color:#1F3C88 !important;
+    }
+    .tile.tile-2 .inner {
+      background-color: #1F3C88 !important;
+      color:#F7B633 !important;
+    }
+  }
+  .even {
+    .tile.tile-1 .inner {
+      background-color: #1F3C88 !important;
+      color:#F7B633 !important;
+    }
+    .tile.tile-2 .inner {
+      background-color: #F7B633 !important;
+      color:#1F3C88 !important;
+    }
+  }
+}
+
+
+td {
+  padding: 0 !important;
+}
+
+.board {
+  padding: 10px 10px 20px 10px;
+  background: #f8fafc;
+}
+
+.vertical h1 {
+  font-family: 'Niagara Engraved Regular';
+  font-size: 150px !important;
+}
+
+
+
+#menu .vertical h2 {
+  font-family: 'Niagara Engraved Regular';
+  font-size: 180px !important;
+}
+
+#zero{
+  font-family: 'Niagara Engraved Regular';
+  color:#F7B633 !important;
+}
+#one{
+  font-family: 'Niagara Engraved Regular';
+  color:#1F3C88 !important;
+}
+
+.firstleft{
+  color:#F7B633;
+}
+
+.firstright{
+  color:#1F3C88;
+}
+
+#upb{
+    height: 140px;
+    width: 185px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color:#1F3C88;
+    border-radius: 17px;
+}
+
+#dowb{
+    height: 140px;
+    width: 185px;
+    margin: auto;
+    background-color:#F7B633;
+    border-radius: 17px;
+}
+
+.btn-primary {
+    color: #F7B633;
+    font-family: 'Niagara Engraved Regular';
+    font-size: 105px;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 10%;
+    margin-left: 13%;
+    margin-top: -20%;
+    background: transparent;
+}
+
+.btn-primary:hover {
+    color: #F7B633;
+    background-color: transparent;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    }
+
+.btn-success {
+    color: #1F3C88;
+    font-family: 'Niagara Engraved Regular';
+    font-size: 105px;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 10%;
+    margin-left: 2%;
+    margin-top: -20%;
+    background: transparent;
+}
+
+.btn-success:hover {
+    color: #1F3C88;
+    background-color: transparent;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    }
+
+#menu .vertical {
+  top: 10%;
+  padding: 0 10px;
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+
+@media only screen and (max-width: 768px) {
+  #menu .vertical {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-center {
+    .card {
+      position: relative;
+      top: 60%;
+      right: unset;
+      width: 80%;
+    }
+  }
+}
+
+.card {
+  background-color: #34384B !important;
+  border: 2px solid #595C6C !important;
+  color: white !important;
+  .card-body {
+    padding: 0;
+  }
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: #f8f9fa !important;
+  background-color: #ff4747 !important;
+  border: none !important;
+}
+
+.nav-tabs .nav-link {
+  color: white !important;
+}
+
+#game #boardsize {
+    margin-top: 10%;
+    font-size: 100px !important;
+    color:#1F3C88;
+}
+
+#score_text{
+  color:#1F3C88;
+  right: 40%;
+  font-size: 70px !important;
+}
+
+#scorenr{
+  color: #F7B633;
+  left: 60%;
+  top: 0%;
+  font-size: 70px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #game #boardsize {
+    margin-top: 0%;
+  }
+}
+
+.coloredarrow{
+  height: 40px;
+  display:block;
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+#date_time {
+  font-size: 16px;
+  .date {
+    margin-right: 50px;
+  }
+  .timer{
+    b {
+      font-size: 18px;
+    }
+  }
+}
+
+#menugrid {
+    width: 90%;
+  }
+
+.gameboard{
+  width:70%;
+}
+
+#container{
+  right: 10%;
+}
+
+#letsgo{
+  width:200%;
+}
+
+.card{
+    position: absolute;
+    top: 21%;
+    right: 5%;
+    Width: 30%;
+    background-color: #1F3C88 !important;
+    border: 2px solid #1F3C88 !important;
+    color: #F7B633 !important;
+
+}
+
+.card-header{
+    color: #F7B633;
+    font-family: 'Niagara Engraved Regular';
+    font-size: 150px;
+    text-align:center;
+}
+
+.list-group-item {
+  color:#1F3C88;
+}

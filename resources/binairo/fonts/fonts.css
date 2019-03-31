@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'titleFont';
+  src: url('Berlin_Sans_FB_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'contentFont';
+  src: url('Phenomena-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('Roboto-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+font-family: 'Niagara Engraved Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Niagara Engraved Regular'), url('NIAGENG.woff') format('woff');
+}

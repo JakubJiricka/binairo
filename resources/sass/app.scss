@@ -1,0 +1,21 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '../binairo/css/style.css';
+@import '../binairo/css/bootstrap-grid.css';
+@import '../binairo/css/animate.min.css';
+@import '../binairo/css/materialize.min.css';
+@import '../binairo/css/calendar.css';
+@import '../binairo/fonts/fonts.css';
+@import 'main.scss';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
